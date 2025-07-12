@@ -29,10 +29,6 @@ A beautiful, customizable floating tab bar component for iOS applications built 
 1. Download or clone this repository.
 2. Copy the file `Sources/APFloatingTabBar/APFloatingTabBar.swift` into your project.
 3. (Optional) Copy any supporting files if you want to customize or extend the component.
-4. Import the module in your Swift files:
-   ```swift
-   import APFloatingTabBar
-   ```
 
 ## Quick Start
 
