@@ -1,0 +1,41 @@
+# Xcode
+DerivedData/
+.build/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+/.swiftpm/xcode/package.xcworkspace/
+/.swiftpm/xcode/package.xcuserdata/
+
+# macOS
+.DS_Store
+
+# User settings
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Other
+*.orig
+*.rej
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# SPM Packages
+Packages/ 
