@@ -17,7 +17,7 @@ A beautiful, customizable floating tab bar component for iOS applications built 
 ### Swift Package Manager (Recommended)
 
 1. In Xcode, go to **File** → **Add Packages...**
-2. Enter the repository URL: `https://github.com/yourusername/APFloatingTabBar.git`
+2. Enter the repository URL: `https://github.com/Arvindcs/APFloatingTabBar.git`
 3. Choose the version you want to install and add the package to your project.
 4. Import the module where needed:
    ```swift

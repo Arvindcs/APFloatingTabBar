@@ -1,4 +1,5 @@
 import SwiftUI
+import APFloatingTabBar
 
 struct ContentView: View {
     @State private var selectedTab = 0

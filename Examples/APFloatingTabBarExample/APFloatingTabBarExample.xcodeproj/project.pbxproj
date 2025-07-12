@@ -11,7 +11,7 @@
 		A1B2C3D4E5F678901234567A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F678901234567B /* ContentView.swift */; };
 		A1B2C3D4E5F678901234567C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F678901234567D /* Assets.xcassets */; };
 		A1B2C3D4E5F678901234567E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F678901234567F /* Preview Assets.xcassets */; };
-		A4D065D42E2209170003CDED /* APFloatingTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D065D12E2209170003CDED /* APFloatingTabBar.swift */; };
+		A4D065EE2E221E4D0003CDED /* APFloatingTabBar in Frameworks */ = {isa = PBXBuildFile; productRef = A4D065ED2E221E4D0003CDED /* APFloatingTabBar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,6 @@
 		A1B2C3D4E5F678901234567D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B2C3D4E5F678901234567F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1B2C3D4E5F6789012345680 /* APFloatingTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APFloatingTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4D065D12E2209170003CDED /* APFloatingTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APFloatingTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D065EE2E221E4D0003CDED /* APFloatingTabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +37,6 @@
 		A1B2C3D4E5F6789012345682 /* APFloatingTabBarExample */ = {
 			isa = PBXGroup;
 			children = (
-				A4D065D32E2209170003CDED /* Sources */,
 				A1B2C3D4E5F6789012345679 /* APFloatingTabBarExampleApp.swift */,
 				A1B2C3D4E5F678901234567B /* ContentView.swift */,
 				A1B2C3D4E5F678901234567D /* Assets.xcassets */,
@@ -70,23 +69,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		A4D065D22E2209170003CDED /* APFloatingTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				A4D065D12E2209170003CDED /* APFloatingTabBar.swift */,
-			);
-			path = APFloatingTabBar;
-			sourceTree = "<group>";
-		};
-		A4D065D32E2209170003CDED /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A4D065D22E2209170003CDED /* APFloatingTabBar */,
-			);
-			name = Sources;
-			path = /Users/arvind/Desktop/APFloatingTabBar/Sources;
-			sourceTree = "<absolute>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +86,7 @@
 			);
 			name = APFloatingTabBarExample;
 			packageProductDependencies = (
+				A4D065ED2E221E4D0003CDED /* APFloatingTabBar */,
 			);
 			productName = APFloatingTabBarExample;
 			productReference = A1B2C3D4E5F6789012345680 /* APFloatingTabBarExample.app */;
@@ -134,6 +117,7 @@
 			);
 			mainGroup = A1B2C3D4E5F6789012345685;
 			packageReferences = (
+				A4D065EC2E221E4D0003CDED /* XCRemoteSwiftPackageReference "APFloatingTabBar" */,
 			);
 			productRefGroup = A1B2C3D4E5F6789012345684 /* Products */;
 			projectDirPath = "";
@@ -161,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D065D42E2209170003CDED /* APFloatingTabBar.swift in Sources */,
 				A1B2C3D4E5F678901234567A /* ContentView.swift in Sources */,
 				A1B2C3D4E5F6789012345678 /* APFloatingTabBarExampleApp.swift in Sources */,
 			);
@@ -367,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4D065EC2E221E4D0003CDED /* XCRemoteSwiftPackageReference "APFloatingTabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Arvindcs/APFloatingTabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4D065ED2E221E4D0003CDED /* APFloatingTabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4D065EC2E221E4D0003CDED /* XCRemoteSwiftPackageReference "APFloatingTabBar" */;
+			productName = APFloatingTabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1B2C3D4E5F678901234568A /* Project object */;
 }
