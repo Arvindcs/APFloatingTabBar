@@ -1,5 +1,11 @@
 # APFloatingTabBar
 
+<p align="center">
+  <img src="screenshot.png" alt="APFloatingTabBar Poster" style="border-radius: 16px; border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 90%; height: auto;">
+  <br/>
+  <em>Modern, customizable floating tab bar for iOS</em>
+</p>
+
 A beautiful, customizable floating tab bar component for iOS applications built with SwiftUI. This library provides a modern alternative to the traditional tab bar with smooth animations, notification badges, and a centered add button.
 
 ## Features
